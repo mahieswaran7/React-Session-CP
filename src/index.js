@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Carousel from 'react-material-ui-carousel';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { RouterProvider } from 'react-router-dom';
+import router from './routing/routing'
+import LandingPage from './components/LandingPage/LandingPage'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <LandingPage/>
+    <RouterProvider router={router}></RouterProvider>
   </React.StrictMode>
 );
 

@@ -1,0 +1,45 @@
+{
+  "products": [
+    {
+      "id": "3",
+      "pname": "mobile",
+      "price": 15000,
+      "company": "oppo"
+    },
+    {
+      "id": "4",
+      "pname": "card-driver",
+      "price": 1000,
+      "company": "san disk"
+    },
+    {
+      "id": "5",
+      "pname": "Keyboard",
+      "price": 5000,
+      "company": "acer"
+    },
+    {
+      "id": "6",
+      "pname": "Cable",
+      "price": 500,
+      "company": "mi"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "userId": "admin@gmail.com",
+      "userpass": "admin123"
+    },
+    {
+      "id": "2",
+      "userId": "adminnew@gmail.com",
+      "userpass": "adminnew123"
+    },
+    {
+      "id": "3",
+      "userId": "admin@gmail.com",
+      "userpass": "adminold123"
+    }
+  ]
+}
